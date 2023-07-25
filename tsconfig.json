@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es5",
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": ["node_modules/*", "src/*"]
+        },
+        "declaration": true,
+        "strict": false,
+        "allowJs": true
+    },
+    "include": ["./src/**/*", "tests/index.spec.ts"],
+    "exclude": ["test", "./node_modules/", "./dist/"]
+}
