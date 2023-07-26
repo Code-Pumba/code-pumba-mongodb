@@ -1,4 +1,4 @@
-EzMongo is the simple way to use MongoDB without knowing how to use MongoDB.
+Its a eazy way to use MongoDB without knowing how to use MongoDB.
 
 Store your client data in collections and fetch and perfrom creation, reading, updating, and deleting functions in a very simple way.
 
